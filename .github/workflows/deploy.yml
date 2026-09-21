@@ -26,7 +26,7 @@ jobs:
       - name: Run tests
         run: pytest
       - name: Connect to server
-  run: echo "Connecting to ${{ secrets.SERVER_HOST }}"
+     run: echo "Connecting to ${{ secrets.SERVER_HOST }}"
 
   deploy:
     needs: test
